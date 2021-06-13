@@ -1,0 +1,465 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=2021-06-09
+##source=ClinVar
+##reference=GRCh38
+##ID=<Description="ClinVar Variation ID">
+##INFO=<ID=AF_ESP,Number=1,Type=Float,Description="allele frequencies from GO-ESP">
+##INFO=<ID=AF_EXAC,Number=1,Type=Float,Description="allele frequencies from ExAC">
+##INFO=<ID=AF_TGP,Number=1,Type=Float,Description="allele frequencies from TGP">
+##INFO=<ID=ALLELEID,Number=1,Type=Integer,Description="the ClinVar Allele ID">
+##INFO=<ID=CLNDN,Number=.,Type=String,Description="ClinVar's preferred disease name for the concept specified by disease identifiers in CLNDISDB">
+##INFO=<ID=CLNDNINCL,Number=.,Type=String,Description="For included Variant : ClinVar's preferred disease name for the concept specified by disease identifiers in CLNDISDB">
+##INFO=<ID=CLNDISDB,Number=.,Type=String,Description="Tag-value pairs of disease database name and identifier, e.g. OMIM:NNNNNN">
+##INFO=<ID=CLNDISDBINCL,Number=.,Type=String,Description="For included Variant: Tag-value pairs of disease database name and identifier, e.g. OMIM:NNNNNN">
+##INFO=<ID=CLNHGVS,Number=.,Type=String,Description="Top-level (primary assembly, alt, or patch) HGVS expression.">
+##INFO=<ID=CLNREVSTAT,Number=.,Type=String,Description="ClinVar review status for the Variation ID">
+##INFO=<ID=CLNSIG,Number=.,Type=String,Description="Clinical significance for this single variant">
+##INFO=<ID=CLNSIGCONF,Number=.,Type=String,Description="Conflicting clinical significance for this single variant">
+##INFO=<ID=CLNSIGINCL,Number=.,Type=String,Description="Clinical significance for a haplotype or genotype that includes this variant. Reported as pairs of VariationID:clinical significance.">
+##INFO=<ID=CLNVC,Number=1,Type=String,Description="Variant type">
+##INFO=<ID=CLNVCSO,Number=1,Type=String,Description="Sequence Ontology id for variant type">
+##INFO=<ID=CLNVI,Number=.,Type=String,Description="the variant's clinical sources reported as tag-value pairs of database and variant identifier">
+##INFO=<ID=DBVARID,Number=.,Type=String,Description="nsv accessions from dbVar for the variant">
+##INFO=<ID=GENEINFO,Number=1,Type=String,Description="Gene(s) for the variant reported as gene symbol:gene id. The gene symbol and id are delimited by a colon (:) and each pair is delimited by a vertical bar (|)">
+##INFO=<ID=MC,Number=.,Type=String,Description="comma separated list of molecular consequence in the form of Sequence Ontology ID|molecular_consequence">
+##INFO=<ID=ORIGIN,Number=.,Type=String,Description="Allele origin. One or more of the following values may be added: 0 - unknown; 1 - germline; 2 - somatic; 4 - inherited; 8 - paternal; 16 - maternal; 32 - de-novo; 64 - biparental; 128 - uniparental; 256 - not-tested; 512 - tested-inconclusive; 1073741824 - other">
+##INFO=<ID=RS,Number=.,Type=String,Description="dbSNP ID (i.e. rs number)">
+##INFO=<ID=SSR,Number=1,Type=Integer,Description="Variant Suspect Reason Codes. One or more of the following values may be added: 0 - unspecified, 1 - Paralog, 2 - byEST, 4 - oldAlign, 8 - Para_EST, 16 - 1kg_failed, 1024 - other">
+##contig=<ID=1>
+##contig=<ID=2>
+##contig=<ID=3>
+##contig=<ID=4>
+##contig=<ID=5>
+##contig=<ID=6>
+##contig=<ID=7>
+##contig=<ID=8>
+##contig=<ID=9>
+##contig=<ID=10>
+##contig=<ID=11>
+##contig=<ID=12>
+##contig=<ID=13>
+##contig=<ID=14>
+##contig=<ID=15>
+##contig=<ID=16>
+##contig=<ID=17>
+##contig=<ID=18>
+##contig=<ID=19>
+##contig=<ID=20>
+##contig=<ID=21>
+##contig=<ID=22>
+##contig=<ID=X>
+##contig=<ID=Y>
+##contig=<ID=MT>
+##contig=<ID=NW_009646201.1>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	1	1	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant;
+chr1	2	2	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	3	3	A	T	.	.	MC=SO:0001821|inframe_insertion,SO:0002153|genic_upstream_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	4	4	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001624|3_prime_UTR_variant;
+chr1	5	5	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001587|nonsense,SO:0001623|5_prime_UTR_variant;
+chr1	6	6	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001627|intron_variant;
+chr1	7	7	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	8	8	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	9	9	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	10	10	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant;
+chr1	11	11	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001624|3_prime_UTR_variant;
+chr1	12	12	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001822|inframe_deletion,SO:0001623|5_prime_UTR_variant;
+chr1	13	13	A	T	.	.	MC=SO:0002152|genic_downstream_transcript_variant,SO:0002153|genic_upstream_transcript_variant;
+chr1	14	14	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion,SO:0001627|intron_variant;
+chr1	15	15	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002152|genic_downstream_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	16	16	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001821|inframe_insertion;
+chr1	17	17	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002073|no_sequence_alteration,SO:0001623|5_prime_UTR_variant;
+chr1	18	18	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001627|intron_variant;
+chr1	19	19	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant;
+chr1	20	20	A	T	.	.	MC=SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001627|intron_variant;
+chr1	21	21	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001624|3_prime_UTR_variant;
+chr1	22	22	A	T	.	.	MC=SO:0002152|genic_downstream_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	23	23	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	24	24	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	25	25	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001587|nonsense;
+chr1	26	26	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant;
+chr1	27	27	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001627|intron_variant;
+chr1	28	28	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	29	29	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	30	30	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion,SO:0001623|5_prime_UTR_variant;
+chr1	31	31	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant;
+chr1	32	32	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	33	33	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant;
+chr1	34	34	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0002073|no_sequence_alteration;
+chr1	35	35	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001587|nonsense,SO:0001821|inframe_insertion,SO:0001627|intron_variant;
+chr1	36	36	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	37	37	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001587|nonsense,SO:0001821|inframe_insertion,SO:0002073|no_sequence_alteration;
+chr1	38	38	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001821|inframe_insertion;
+chr1	39	39	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	40	40	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	41	41	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001822|inframe_deletion,SO:0001627|intron_variant;
+chr1	42	42	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001589|frameshift_variant;
+chr1	43	43	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	44	44	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	45	45	A	T	.	.	MC=SO:0001821|inframe_insertion,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	46	46	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	47	47	A	T	.	.	MC=SO:0001587|nonsense,SO:0001819|synonymous_variant;
+chr1	48	48	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	49	49	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	50	50	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002073|no_sequence_alteration;
+chr1	51	51	A	T	.	.	MC=SO:0001587|nonsense,SO:0001821|inframe_insertion;
+chr1	52	52	A	T	.	.	MC=SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	53	53	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	54	54	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	55	55	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0002153|genic_upstream_transcript_variant,SO:0001627|intron_variant;
+chr1	56	56	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion;
+chr1	57	57	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant;
+chr1	58	58	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	59	59	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001821|inframe_insertion,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	60	60	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001587|nonsense,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	61	61	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0002073|no_sequence_alteration,SO:0001624|3_prime_UTR_variant;
+chr1	62	62	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	63	63	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	64	64	A	T	.	.	MC=SO:0001578|stop_lost;
+chr1	65	65	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	66	66	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	67	67	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001822|inframe_deletion;
+chr1	68	68	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	69	69	A	T	.	.	MC=SO:0001587|nonsense,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	70	70	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	71	71	A	T	.	.	MC=SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	72	72	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	73	73	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001583|missense_variant;
+chr1	74	74	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	75	75	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant;
+chr1	76	76	A	T	.	.	MC=SO:0001587|nonsense,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	77	77	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	78	78	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001820|inframe_indel;
+chr1	79	79	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	80	80	A	T	.	.	MC=SO:0001587|nonsense,SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	81	81	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant;
+chr1	82	82	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion,SO:0001624|3_prime_UTR_variant;
+chr1	83	83	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	84	84	A	T	.	.	MC=SO:0001822|inframe_deletion,SO:0001623|5_prime_UTR_variant;
+chr1	85	85	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001822|inframe_deletion,SO:0001624|3_prime_UTR_variant;
+chr1	86	86	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	87	87	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	88	88	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001627|intron_variant;
+chr1	89	89	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	90	90	A	T	.	.	MC=SO:0001821|inframe_insertion;
+chr1	91	91	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	92	92	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001822|inframe_deletion;
+chr1	93	93	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant;
+chr1	94	94	A	T	.	.	MC=SO:0001587|nonsense,SO:0001623|5_prime_UTR_variant;
+chr1	95	95	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	96	96	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	97	97	A	T	.	.	MC=SO:0002153|genic_upstream_transcript_variant,SO:0001627|intron_variant;
+chr1	98	98	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0002153|genic_upstream_transcript_variant;
+chr1	99	99	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001582|initiatior_codon_variant,SO:0001627|intron_variant;
+chr1	100	100	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion,SO:0001820|inframe_indel;
+chr1	101	101	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	102	102	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	103	103	A	T	.	.	MC=SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	104	104	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	105	105	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001821|inframe_insertion,SO:0001627|intron_variant;
+chr1	106	106	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	107	107	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense;
+chr1	108	108	A	T	.	.	MC=SO:0001822|inframe_deletion,SO:0002073|no_sequence_alteration;
+chr1	109	109	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001587|nonsense;
+chr1	110	110	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	111	111	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	112	112	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	113	113	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	114	114	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant;
+chr1	115	115	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant;
+chr1	116	116	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	117	117	A	T	.	.	MC=SO:0002073|no_sequence_alteration,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	118	118	A	T	.	.	MC=SO:0001587|nonsense,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	119	119	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	120	120	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant;
+chr1	121	121	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion;
+chr1	122	122	A	T	.	.	MC=SO:0001623|5_prime_UTR_variant,SO:0001820|inframe_indel;
+chr1	123	123	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001578|stop_lost,SO:0001822|inframe_deletion;
+chr1	124	124	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	125	125	A	T	.	.	MC=SO:0001822|inframe_deletion,SO:0001820|inframe_indel;
+chr1	126	126	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant;
+chr1	127	127	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant;
+chr1	128	128	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	129	129	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001583|missense_variant,SO:0001624|3_prime_UTR_variant;
+chr1	130	130	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001578|stop_lost;
+chr1	131	131	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant;
+chr1	132	132	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	133	133	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002153|genic_upstream_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	134	134	A	T	.	.	MC=SO:0001627|intron_variant;
+chr1	135	135	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001624|3_prime_UTR_variant;
+chr1	136	136	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant;
+chr1	137	137	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	138	138	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001623|5_prime_UTR_variant;
+chr1	139	139	A	T	.	.	MC=SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	140	140	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	141	141	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant;
+chr1	142	142	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant;
+chr1	143	143	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	144	144	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	145	145	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	146	146	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001627|intron_variant;
+chr1	147	147	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001627|intron_variant;
+chr1	148	148	A	T	.	.	MC=SO:0002073|no_sequence_alteration,SO:0001624|3_prime_UTR_variant;
+chr1	149	149	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001624|3_prime_UTR_variant;
+chr1	150	150	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion;
+chr1	151	151	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant;
+chr1	152	152	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002073|no_sequence_alteration;
+chr1	153	153	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0002153|genic_upstream_transcript_variant;
+chr1	154	154	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	155	155	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	156	156	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001627|intron_variant;
+chr1	157	157	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001623|5_prime_UTR_variant;
+chr1	158	158	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001587|nonsense;
+chr1	159	159	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	160	160	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant;
+chr1	161	161	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	162	162	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002152|genic_downstream_transcript_variant;
+chr1	163	163	A	T	.	.	MC=SO:0001587|nonsense,SO:0001589|frameshift_variant;
+chr1	164	164	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001820|inframe_indel;
+chr1	165	165	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002073|no_sequence_alteration,SO:0002153|genic_upstream_transcript_variant;
+chr1	166	166	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	167	167	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	168	168	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	169	169	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001822|inframe_deletion;
+chr1	170	170	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	171	171	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001623|5_prime_UTR_variant;
+chr1	172	172	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant;
+chr1	173	173	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	174	174	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001819|synonymous_variant;
+chr1	175	175	A	T	.	.	MC=SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	176	176	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0002153|genic_upstream_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	177	177	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant;
+chr1	178	178	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001627|intron_variant;
+chr1	179	179	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001589|frameshift_variant,SO:0001624|3_prime_UTR_variant;
+chr1	180	180	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	181	181	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	182	182	A	T	.	.	MC=SO:0001821|inframe_insertion,SO:0001627|intron_variant;
+chr1	183	183	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0002073|no_sequence_alteration;
+chr1	184	184	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant,SO:0001819|synonymous_variant;
+chr1	185	185	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001624|3_prime_UTR_variant;
+chr1	186	186	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001822|inframe_deletion,SO:0002073|no_sequence_alteration;
+chr1	187	187	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant;
+chr1	188	188	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	189	189	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	190	190	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001582|initiatior_codon_variant;
+chr1	191	191	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	192	192	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	193	193	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant;
+chr1	194	194	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant,SO:0001820|inframe_indel;
+chr1	195	195	A	T	.	.	MC=SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	196	196	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0002153|genic_upstream_transcript_variant,SO:0001627|intron_variant;
+chr1	197	197	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	198	198	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001627|intron_variant;
+chr1	199	199	A	T	.	.	MC=SO:0001819|synonymous_variant;
+chr1	200	200	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion,SO:0001627|intron_variant;
+chr1	201	201	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant;
+chr1	202	202	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001627|intron_variant;
+chr1	203	203	A	T	.	.	MC=SO:0001624|3_prime_UTR_variant;
+chr1	204	204	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001589|frameshift_variant,SO:0001627|intron_variant;
+chr1	205	205	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	206	206	A	T	.	.	MC=SO:0002073|no_sequence_alteration,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	207	207	A	T	.	.	MC=SO:0001587|nonsense,SO:0001624|3_prime_UTR_variant;
+chr1	208	208	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001627|intron_variant;
+chr1	209	209	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion;
+chr1	210	210	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001583|missense_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	211	211	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001587|nonsense,SO:0001821|inframe_insertion;
+chr1	212	212	A	T	.	.	MC=SO:0001587|nonsense;
+chr1	213	213	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001623|5_prime_UTR_variant;
+chr1	214	214	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001589|frameshift_variant,SO:0001624|3_prime_UTR_variant;
+chr1	215	215	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001627|intron_variant;
+chr1	216	216	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001819|synonymous_variant;
+chr1	217	217	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant;
+chr1	218	218	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	219	219	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	220	220	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002153|genic_upstream_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	221	221	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001587|nonsense;
+chr1	222	222	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	223	223	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	224	224	A	T	.	.	MC=SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion,SO:0001623|5_prime_UTR_variant;
+chr1	225	225	A	T	.	.	MC=SO:0001822|inframe_deletion,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	226	226	A	T	.	.	MC=SO:0002073|no_sequence_alteration,SO:0001623|5_prime_UTR_variant;
+chr1	227	227	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	228	228	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	229	229	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	230	230	A	T	.	.	MC=SO:0001822|inframe_deletion,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	231	231	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002153|genic_upstream_transcript_variant;
+chr1	232	232	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	233	233	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	234	234	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant;
+chr1	235	235	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion,SO:0002073|no_sequence_alteration,SO:0001624|3_prime_UTR_variant;
+chr1	236	236	A	T	.	.	MC=SO:0001574|splice_acceptor_variant;
+chr1	237	237	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	238	238	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion,SO:0001624|3_prime_UTR_variant;
+chr1	239	239	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	240	240	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	241	241	A	T	.	.	MC=SO:0002152|genic_downstream_transcript_variant;
+chr1	242	242	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	243	243	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	244	244	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	245	245	A	T	.	.	MC=SO:0001822|inframe_deletion,SO:0001627|intron_variant;
+chr1	246	246	A	T	.	.	MC=SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	247	247	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	248	248	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001578|stop_lost,SO:0001822|inframe_deletion;
+chr1	249	249	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	250	250	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001624|3_prime_UTR_variant;
+chr1	251	251	A	T	.	.	MC=SO:0001587|nonsense,SO:0002153|genic_upstream_transcript_variant;
+chr1	252	252	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	253	253	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0002073|no_sequence_alteration;
+chr1	254	254	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	255	255	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001627|intron_variant;
+chr1	256	256	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	257	257	A	T	.	.	MC=SO:0001822|inframe_deletion;
+chr1	258	258	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion;
+chr1	259	259	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	260	260	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant;
+chr1	261	261	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion,SO:0001627|intron_variant;
+chr1	262	262	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001627|intron_variant;
+chr1	263	263	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	264	264	A	T	.	.	MC=SO:0001821|inframe_insertion,SO:0002073|no_sequence_alteration,SO:0001624|3_prime_UTR_variant;
+chr1	265	265	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	266	266	A	T	.	.	MC=SO:0002153|genic_upstream_transcript_variant;
+chr1	267	267	A	T	.	.	MC=SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant,SO:0001820|inframe_indel;
+chr1	268	268	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	269	269	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0002073|no_sequence_alteration;
+chr1	270	270	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant;
+chr1	271	271	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	272	272	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	273	273	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001578|stop_lost,SO:0001822|inframe_deletion;
+chr1	274	274	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001627|intron_variant;
+chr1	275	275	A	T	.	.	MC=SO:0001624|3_prime_UTR_variant,SO:0001820|inframe_indel;
+chr1	276	276	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001819|synonymous_variant;
+chr1	277	277	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002073|no_sequence_alteration,SO:0001623|5_prime_UTR_variant;
+chr1	278	278	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001589|frameshift_variant;
+chr1	279	279	A	T	.	.	MC=SO:0002073|no_sequence_alteration;
+chr1	280	280	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	281	281	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	282	282	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion;
+chr1	283	283	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant;
+chr1	284	284	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001627|intron_variant;
+chr1	285	285	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001582|initiatior_codon_variant,SO:0001822|inframe_deletion;
+chr1	286	286	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002153|genic_upstream_transcript_variant,SO:0001627|intron_variant;
+chr1	287	287	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	288	288	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	289	289	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	290	290	A	T	.	.	MC=SO:0001821|inframe_insertion,SO:0002073|no_sequence_alteration;
+chr1	291	291	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	292	292	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	293	293	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant;
+chr1	294	294	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001820|inframe_indel;
+chr1	295	295	A	T	.	.	MC=SO:0001587|nonsense,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	296	296	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	297	297	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001822|inframe_deletion;
+chr1	298	298	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	299	299	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001819|synonymous_variant;
+chr1	300	300	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion,SO:0001820|inframe_indel;
+chr1	301	301	A	T	.	.	MC=SO:0001587|nonsense,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	302	302	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	303	303	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	304	304	A	T	.	.	MC=SO:0001623|5_prime_UTR_variant;
+chr1	305	305	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001822|inframe_deletion,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	306	306	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	307	307	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant;
+chr1	308	308	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001819|synonymous_variant;
+chr1	309	309	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	310	310	A	T	.	.	MC=SO:0001582|initiatior_codon_variant;
+chr1	311	311	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	312	312	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion,SO:0001623|5_prime_UTR_variant;
+chr1	313	313	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	314	314	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	315	315	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002153|genic_upstream_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	316	316	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001822|inframe_deletion;
+chr1	317	317	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001819|synonymous_variant;
+chr1	318	318	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	319	319	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant;
+chr1	320	320	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	321	321	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001623|5_prime_UTR_variant;
+chr1	322	322	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant;
+chr1	323	323	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001819|synonymous_variant;
+chr1	324	324	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001578|stop_lost,SO:0001582|initiatior_codon_variant,SO:0001822|inframe_deletion;
+chr1	325	325	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	326	326	A	T	.	.	MC=SO:0001583|missense_variant;
+chr1	327	327	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	328	328	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001821|inframe_insertion,SO:0001623|5_prime_UTR_variant;
+chr1	329	329	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	330	330	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001624|3_prime_UTR_variant;
+chr1	331	331	A	T	.	.	MC=SO:0001821|inframe_insertion,SO:0001623|5_prime_UTR_variant;
+chr1	332	332	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	333	333	A	T	.	.	MC=SO:0001627|intron_variant,SO:0001820|inframe_indel;
+chr1	334	334	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant,SO:0001820|inframe_indel;
+chr1	335	335	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant;
+chr1	336	336	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001822|inframe_deletion,SO:0001627|intron_variant;
+chr1	337	337	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001578|stop_lost;
+chr1	338	338	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	339	339	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001822|inframe_deletion,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	340	340	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	341	341	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion;
+chr1	342	342	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	343	343	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002153|genic_upstream_transcript_variant;
+chr1	344	344	A	T	.	.	MC=SO:0001587|nonsense,SO:0001627|intron_variant;
+chr1	345	345	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	346	346	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	347	347	A	T	.	.	MC=SO:0001822|inframe_deletion,SO:0001624|3_prime_UTR_variant;
+chr1	348	348	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	349	349	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	350	350	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001583|missense_variant,SO:0001627|intron_variant;
+chr1	351	351	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant,SO:0001820|inframe_indel;
+chr1	352	352	A	T	.	.	MC=SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant,SO:0001820|inframe_indel;
+chr1	353	353	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001822|inframe_deletion;
+chr1	354	354	A	T	.	.	MC=SO:0001820|inframe_indel;
+chr1	355	355	A	T	.	.	MC=SO:0001583|missense_variant,SO:0002073|no_sequence_alteration,SO:0002153|genic_upstream_transcript_variant;
+chr1	356	356	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	357	357	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	358	358	A	T	.	.	MC=None;
+chr1	359	359	A	T	.	.	MC=SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001623|5_prime_UTR_variant;
+chr1	360	360	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001822|inframe_deletion,SO:0001627|intron_variant;
+chr1	361	361	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	362	362	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant;
+chr1	363	363	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	364	364	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	365	365	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	366	366	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0002073|no_sequence_alteration;
+chr1	367	367	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001627|intron_variant;
+chr1	368	368	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	369	369	A	T	.	.	MC=SO:0001575|splice_donor_variant;
+chr1	370	370	A	T	.	.	MC=SO:0001587|nonsense,SO:0001821|inframe_insertion,SO:0001627|intron_variant;
+chr1	371	371	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	372	372	A	T	.	.	MC=SO:0001821|inframe_insertion,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	373	373	A	T	.	.	MC=SO:0001589|frameshift_variant;
+chr1	374	374	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0002073|no_sequence_alteration;
+chr1	375	375	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001589|frameshift_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	376	376	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	377	377	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant;
+chr1	378	378	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant;
+chr1	379	379	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001627|intron_variant;
+chr1	380	380	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	381	381	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	382	382	A	T	.	.	MC=SO:0002153|genic_upstream_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	383	383	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001589|frameshift_variant;
+chr1	384	384	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	385	385	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002073|no_sequence_alteration,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	386	386	A	T	.	.	MC=SO:0001821|inframe_insertion,SO:0001624|3_prime_UTR_variant;
+chr1	387	387	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001575|splice_donor_variant,SO:0001582|initiatior_codon_variant;
+chr1	388	388	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant;
+chr1	389	389	A	T	.	.	MC=SO:0001578|stop_lost,SO:0002073|no_sequence_alteration,SO:0001627|intron_variant;
+chr1	390	390	A	T	.	.	MC=SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	391	391	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	392	392	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	393	393	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0002073|no_sequence_alteration,SO:0001623|5_prime_UTR_variant;
+chr1	394	394	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0002153|genic_upstream_transcript_variant,SO:0001627|intron_variant;
+chr1	395	395	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	396	396	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	397	397	A	T	.	.	MC=SO:0001582|initiatior_codon_variant,SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	398	398	A	T	.	.	MC=SO:0001578|stop_lost,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	399	399	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	400	400	A	T	.	.	MC=SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant,SO:0001627|intron_variant;
+chr1	401	401	A	T	.	.	MC=SO:0001575|splice_donor_variant,SO:0001819|synonymous_variant,SO:0001627|intron_variant;
+chr1	402	402	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant,SO:0001624|3_prime_UTR_variant;
+chr1	403	403	A	T	.	.	MC=SO:0001587|nonsense,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;
+chr1	404	404	A	T	.	.	MC=SO:0001587|nonsense,SO:0001589|frameshift_variant,SO:0001619|non-coding_transcript_variant,SO:0001623|5_prime_UTR_variant;
+chr1	405	405	A	T	.	.	MC=SO:0001619|non-coding_transcript_variant,SO:0001821|inframe_insertion,SO:0001623|5_prime_UTR_variant;
+chr1	406	406	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant;
+chr1	407	407	A	T	.	.	MC=SO:0001583|missense_variant,SO:0001619|non-coding_transcript_variant,SO:0001819|synonymous_variant;
+chr1	408	408	A	T	.	.	MC=SO:0001623|5_prime_UTR_variant,SO:0001624|3_prime_UTR_variant;
+chr1	409	409	A	T	.	.	MC=SO:0001587|nonsense,SO:0001819|synonymous_variant,SO:0001623|5_prime_UTR_variant;
+chr1	410	410	A	T	.	.	MC=SO:0001574|splice_acceptor_variant,SO:0001619|non-coding_transcript_variant,SO:0001624|3_prime_UTR_variant;

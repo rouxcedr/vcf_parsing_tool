@@ -1,0 +1,517 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=2021-06-09
+##source=ClinVar
+##reference=GRCh38
+##ID=<Description="ClinVar Variation ID">
+##INFO=<ID=AF_ESP,Number=1,Type=Float,Description="allele frequencies from GO-ESP">
+##INFO=<ID=AF_EXAC,Number=1,Type=Float,Description="allele frequencies from ExAC">
+##INFO=<ID=AF_TGP,Number=1,Type=Float,Description="allele frequencies from TGP">
+##INFO=<ID=ALLELEID,Number=1,Type=Integer,Description="the ClinVar Allele ID">
+##INFO=<ID=CLNDN,Number=.,Type=String,Description="ClinVar's preferred disease name for the concept specified by disease identifiers in CLNDISDB">
+##INFO=<ID=CLNDNINCL,Number=.,Type=String,Description="For included Variant : ClinVar's preferred disease name for the concept specified by disease identifiers in CLNDISDB">
+##INFO=<ID=CLNDISDB,Number=.,Type=String,Description="Tag-value pairs of disease database name and identifier, e.g. OMIM:NNNNNN">
+##INFO=<ID=CLNDISDBINCL,Number=.,Type=String,Description="For included Variant: Tag-value pairs of disease database name and identifier, e.g. OMIM:NNNNNN">
+##INFO=<ID=CLNHGVS,Number=.,Type=String,Description="Top-level (primary assembly, alt, or patch) HGVS expression.">
+##INFO=<ID=CLNREVSTAT,Number=.,Type=String,Description="ClinVar review status for the Variation ID">
+##INFO=<ID=CLNSIG,Number=.,Type=String,Description="Clinical significance for this single variant">
+##INFO=<ID=CLNSIGCONF,Number=.,Type=String,Description="Conflicting clinical significance for this single variant">
+##INFO=<ID=CLNSIGINCL,Number=.,Type=String,Description="Clinical significance for a haplotype or genotype that includes this variant. Reported as pairs of VariationID:clinical significance.">
+##INFO=<ID=CLNVC,Number=1,Type=String,Description="Variant type">
+##INFO=<ID=CLNVCSO,Number=1,Type=String,Description="Sequence Ontology id for variant type">
+##INFO=<ID=CLNVI,Number=.,Type=String,Description="the variant's clinical sources reported as tag-value pairs of database and variant identifier">
+##INFO=<ID=DBVARID,Number=.,Type=String,Description="nsv accessions from dbVar for the variant">
+##INFO=<ID=GENEINFO,Number=1,Type=String,Description="Gene(s) for the variant reported as gene symbol:gene id. The gene symbol and id are delimited by a colon (:) and each pair is delimited by a vertical bar (|)">
+##INFO=<ID=MC,Number=.,Type=String,Description="comma separated list of molecular consequence in the form of Sequence Ontology ID|molecular_consequence">
+##INFO=<ID=ORIGIN,Number=.,Type=String,Description="Allele origin. One or more of the following values may be added: 0 - unknown; 1 - germline; 2 - somatic; 4 - inherited; 8 - paternal; 16 - maternal; 32 - de-novo; 64 - biparental; 128 - uniparental; 256 - not-tested; 512 - tested-inconclusive; 1073741824 - other">
+##INFO=<ID=RS,Number=.,Type=String,Description="dbSNP ID (i.e. rs number)">
+##INFO=<ID=SSR,Number=1,Type=Integer,Description="Variant Suspect Reason Codes. One or more of the following values may be added: 0 - unspecified, 1 - Paralog, 2 - byEST, 4 - oldAlign, 8 - Para_EST, 16 - 1kg_failed, 1024 - other">
+##contig=<ID=1>
+##contig=<ID=2>
+##contig=<ID=3>
+##contig=<ID=4>
+##contig=<ID=5>
+##contig=<ID=6>
+##contig=<ID=7>
+##contig=<ID=8>
+##contig=<ID=9>
+##contig=<ID=10>
+##contig=<ID=11>
+##contig=<ID=12>
+##contig=<ID=13>
+##contig=<ID=14>
+##contig=<ID=15>
+##contig=<ID=16>
+##contig=<ID=17>
+##contig=<ID=18>
+##contig=<ID=19>
+##contig=<ID=20>
+##contig=<ID=21>
+##contig=<ID=22>
+##contig=<ID=X>
+##contig=<ID=Y>
+##contig=<ID=MT>
+##contig=<ID=NW_009646201.1>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	1	1	A	T	.	.	CLNDNINCL=Trimethylaminuria;
+chr1	2	2	A	T	.	.	CLNDNINCL=Medullary_thyroid_carcinoma|Multiple_endocrine_neoplasia,_type_2b|Multiple_endocrine_neoplasia,_type_2;
+chr1	3	3	A	T	.	.	CLNDNINCL=Rod-cone_dystrophy;
+chr1	4	4	A	T	.	.	CLNDNINCL=HEMOGLOBIN_DUINO;
+chr1	5	5	A	T	.	.	CLNDNINCL=Multiple_endocrine_neoplasia,_type_2b|Multiple_endocrine_neoplasia,_type_2a|Multiple_endocrine_neoplasia,_type_2|not_specified;
+chr1	6	6	A	T	.	.	CLNDNINCL=Ehlers-Danlos_syndrome,_hydroxylysine-deficient;
+chr1	7	7	A	T	.	.	CLNDNINCL=Lattice_corneal_dystrophy_Type_I;
+chr1	8	8	A	T	.	.	CLNDNINCL=Adenylosuccinate_lyase_deficiency;
+chr1	9	9	A	T	.	.	CLNDNINCL=Lipoyltransferase_1_deficiency;
+chr1	10	10	A	T	.	.	CLNDNINCL=Osteogenesis_imperfecta_with_normal_sclerae,_dominant_form;
+chr1	11	11	A	T	.	.	CLNDNINCL=Cone-rod_dystrophy_6;
+chr1	12	12	A	T	.	.	CLNDNINCL=Avascular_necrosis_of_femoral_head,_primary,_2;
+chr1	13	13	A	T	.	.	CLNDNINCL=Myoclonic_epilepsy,_familial_infantile;
+chr1	14	14	A	T	.	.	CLNDNINCL=G6PD_SANTAMARIA|Glucose_6_phosphate_dehydrogenase_deficiency|Anemia,_nonspherocytic_hemolytic,_due_to_G6PD_deficiency;
+chr1	15	15	A	T	.	.	CLNDNINCL=Hypogonadotropic_hypogonadism_2_with_or_without_anosmia;
+chr1	16	16	A	T	.	.	CLNDNINCL=Vici_syndrome;
+chr1	17	17	A	T	.	.	CLNDNINCL=Phenylketonuria;
+chr1	18	18	A	T	.	.	CLNDNINCL=Sjögren-Larsson_syndrome;
+chr1	19	19	A	T	.	.	CLNDNINCL=Oculocutaneous_albinism_type_4;
+chr1	20	20	A	T	.	.	CLNDNINCL=Hyperekplexia_1;
+chr1	21	21	A	T	.	.	CLNDNINCL=OROSOMUCOID_POLYMORPHISM;
+chr1	22	22	A	T	.	.	CLNDNINCL=Ataxia-hypogonadism-choroidal_dystrophy_syndrome;
+chr1	23	23	A	T	.	.	CLNDNINCL=Corticosterone_18-monooxygenase_deficiency|Corticosterone_methyloxidase_type_2_deficiency;
+chr1	24	24	A	T	.	.	CLNDNINCL=Long_QT_syndrome;
+chr1	25	25	A	T	.	.	CLNDNINCL=Multiple_endocrine_neoplasia,_type_2a|Multiple_endocrine_neoplasia,_type_2;
+chr1	26	26	A	T	.	.	CLNDNINCL=HEMOGLOBIN_S_(PROVIDENCE);
+chr1	27	27	A	T	.	.	CLNDNINCL=Charcot-Marie-Tooth_disease;
+chr1	28	28	A	T	.	.	CLNDNINCL=Dysmetria|Gait_ataxia|Cognitive_impairment|Progressive_spastic_paraparesis;
+chr1	29	29	A	T	.	.	CLNDNINCL=Spinocerebellar_ataxia,_autosomal_recessive_13;
+chr1	30	30	A	T	.	.	CLNDNINCL=Retinitis_pigmentosa;
+chr1	31	31	A	T	.	.	CLNDNINCL=CYP2E1*5B_ALLELE;
+chr1	32	32	A	T	.	.	CLNDNINCL=RH_C/c_POLYMORPHISM;
+chr1	33	33	A	T	.	.	CLNDNINCL=Deficiency_of_UDPglucose-hexose-1-phosphate_uridylyltransferase;
+chr1	34	34	A	T	.	.	CLNDNINCL=Le(-)_PHENOTYPE;
+chr1	35	35	A	T	.	.	CLNDNINCL=Microcephaly,_normal_intelligence_and_immunodeficiency;
+chr1	36	36	A	T	.	.	CLNDNINCL=Neonatal_pseudo-hydrocephalic_progeroid_syndrome;
+chr1	37	37	A	T	.	.	CLNDNINCL=Hurler_syndrome;
+chr1	38	38	A	T	.	.	CLNDNINCL=ALS2-Related_Disorders;
+chr1	39	39	A	T	.	.	CLNDNINCL=CYP2C19:_no_function|Clopidogrel_response|Voriconazole_response|Citalopram_response|Escitalopram_response|Sertraline_response;
+chr1	40	40	A	T	.	.	CLNDNINCL=Beaulieu-Boycott-Innes_syndrome;
+chr1	41	41	A	T	.	.	CLNDNINCL=Upshaw-Schulman_syndrome;
+chr1	42	42	A	T	.	.	CLNDNINCL=Deafness,_autosomal_dominant_16;
+chr1	43	43	A	T	.	.	CLNDNINCL=Trimethylaminuria|Trimethylaminuria,_mild;
+chr1	44	44	A	T	.	.	CLNDNINCL=HEMOGLOBIN_JAMAICA_PLAIN|HEMOGLOBIN_S_(ANTILLES)|HEMOGLOBIN_S_(CAMEROON)|HEMOGLOBIN_S_(PROVIDENCE)|HEMOGLOBIN_S_(TRAVIS)|HEMOGLOBIN_ZIGUINCHOR|Sickle_cell-Hemoglobin_O_Arab_disease;
+chr1	45	45	A	T	.	.	CLNDNINCL=Limb-girdle_muscular_dystrophy-dystroglycanopathy,_type_C2;
+chr1	46	46	A	T	.	.	CLNDNINCL=Cystic_fibrosis|not_specified;
+chr1	47	47	A	T	.	.	CLNDNINCL=Gastric_adenocarcinoma_and_proximal_polyposis_of_the_stomach;
+chr1	48	48	A	T	.	.	CLNDNINCL=Fabry_disease;
+chr1	49	49	A	T	.	.	CLNDNINCL=Congenital_myasthenic_syndrome_4C|Pena-Shokeir_syndrome_type_I;
+chr1	50	50	A	T	.	.	CLNDNINCL=Glanzmann_thrombasthenia;
+chr1	51	51	A	T	.	.	CLNDNINCL=Congenital_cataract;
+chr1	52	52	A	T	.	.	CLNDNINCL=Von_Hippel-Lindau_syndrome;
+chr1	53	53	A	T	.	.	CLNDNINCL=not_provided;
+chr1	54	54	A	T	.	.	CLNDNINCL=Leprechaunism_syndrome;
+chr1	55	55	A	T	.	.	CLNDNINCL=SLC39A8-CDG|SLC39A8_deficiency;
+chr1	56	56	A	T	.	.	CLNDNINCL=Multiple_endocrine_neoplasia,_type_2a;
+chr1	57	57	A	T	.	.	CLNDNINCL=Brugada_syndrome_1;
+chr1	58	58	A	T	.	.	CLNDNINCL=Protoporphyria,_erythropoietic,_1;
+chr1	59	59	A	T	.	.	CLNDNINCL=Orofaciodigital_syndrome_type_6|Joubert_syndrome_17;
+chr1	60	60	A	T	.	.	CLNDNINCL=Rothmund-Thomson_syndrome_type_2;
+chr1	61	61	A	T	.	.	CLNDNINCL=Cerebellar_ataxia|Muscular_hypotonia|Dysmetria|Postural_instability|Drooling|Mild_global_developmental_delay;
+chr1	62	62	A	T	.	.	CLNDNINCL=Coronary_heart_disease_7;
+chr1	63	63	A	T	.	.	CLNDNINCL=Bifunctional_peroxisomal_enzyme_deficiency;
+chr1	64	64	A	T	.	.	CLNDNINCL=Apolipoproteinemia_E1;
+chr1	65	65	A	T	.	.	CLNDNINCL=McKusick-Kaufman_syndrome;
+chr1	66	66	A	T	.	.	CLNDNINCL=DOORS_syndrome|Myoclonic_epilepsy,_familial_infantile|Early_infantile_epileptic_encephalopathy_16;
+chr1	67	67	A	T	.	.	CLNDNINCL=Retinitis_pigmentosa_49;
+chr1	68	68	A	T	.	.	CLNDNINCL=Pierson_syndrome;
+chr1	69	69	A	T	.	.	CLNDNINCL=Stargardt_disease_1|Cone-rod_dystrophy_3;
+chr1	70	70	A	T	.	.	CLNDNINCL=Voriconazole_response|Citalopram_response|Escitalopram_response|Sertraline_response;
+chr1	71	71	A	T	.	.	CLNDNINCL=Optic_atrophy|Cerebellar_ataxia|Spasticity|Myoclonus|Chorea;
+chr1	72	72	A	T	.	.	CLNDNINCL=Charcot-Marie-Tooth_disease,_demyelinating,_type_1b;
+chr1	73	73	A	T	.	.	CLNDNINCL=Hyalinosis,_Segmental_Glomerular;
+chr1	74	74	A	T	.	.	CLNDNINCL=Progressive_familial_heart_block,_type_1A;
+chr1	75	75	A	T	.	.	CLNDNINCL=Nemaline_myopathy_3;
+chr1	76	76	A	T	.	.	CLNDNINCL=Kaufman_oculocerebrofacial_syndrome;
+chr1	77	77	A	T	.	.	CLNDNINCL=Corticosterone_18-monooxygenase_deficiency;
+chr1	78	78	A	T	.	.	CLNDNINCL=Primary_autosomal_recessive_microcephaly_9;
+chr1	79	79	A	T	.	.	CLNDNINCL=Tuberous_sclerosis_syndrome;
+chr1	80	80	A	T	.	.	CLNDNINCL=Polyarteritis_nodosa,_childhoood-onset;
+chr1	81	81	A	T	.	.	CLNDNINCL=Muscular_dystrophy-dystroglycanopathy_(congenital_with_mental_retardation),_type_b,_14;
+chr1	82	82	A	T	.	.	CLNDNINCL=Breast-ovarian_cancer,_familial_1;
+chr1	83	83	A	T	.	.	CLNDNINCL=Multiple_endocrine_neoplasia,_type_2b;
+chr1	84	84	A	T	.	.	CLNDNINCL=Charcot-Marie-Tooth_disease,_type_4A|Charcot-Marie-Tooth_disease,_axonal,_with_vocal_cord_paresis,_autosomal_recessive|Charcot-Marie-Tooth_disease_axonal_type_2K|Charcot-Marie-Tooth_disease,_recessive_intermediate_A;
+chr1	85	85	A	T	.	.	CLNDNINCL=Idiopathic_nephrotic_syndrome;
+chr1	86	86	A	T	.	.	CLNDNINCL=Distal_shortening_of_limbs;
+chr1	87	87	A	T	.	.	CLNDNINCL=Corpus_callosum,_agenesis_of;
+chr1	88	88	A	T	.	.	CLNDNINCL=Tobacco_addiction,_susceptibility_to;
+chr1	89	89	A	T	.	.	CLNDNINCL=Joubert_syndrome_3;
+chr1	90	90	A	T	.	.	CLNDNINCL=GNE_myopathy;
+chr1	91	91	A	T	.	.	CLNDNINCL=Mucolipidosis_type_II;
+chr1	92	92	A	T	.	.	CLNDNINCL=Neutrophil-specific_antigens_NA1/NA2;
+chr1	93	93	A	T	.	.	CLNDNINCL=Aortic_aneurysm,_familial_thoracic_4;
+chr1	94	94	A	T	.	.	CLNDNINCL=APOE3_ISOFORM|Alzheimer_disease_3,_protection_against,_due_to_APOE3-Christchurch;
+chr1	95	95	A	T	.	.	CLNDNINCL=Glaucoma,_normal_tension,_susceptibility_to;
+chr1	96	96	A	T	.	.	CLNDNINCL=Holoprosencephaly_2;
+chr1	97	97	A	T	.	.	CLNDNINCL=Vitamin_D-dependent_rickets,_type_1;
+chr1	98	98	A	T	.	.	CLNDNINCL=HEMOGLOBIN_F_(CHARLOTTE)|HEMOGLOBIN_F_(PORTO_TORRES);
+chr1	99	99	A	T	.	.	CLNDNINCL=Rubinstein-Taybi_syndrome_1;
+chr1	100	100	A	T	.	.	CLNDNINCL=Combined_oxidative_phosphorylation_deficiency_1;
+chr1	101	101	A	T	.	.	CLNDNINCL=2-aminoadipic_2-oxoadipic_aciduria;
+chr1	102	102	A	T	.	.	CLNDNINCL=Minicore_myopathy_with_external_ophthalmoplegia;
+chr1	103	103	A	T	.	.	CLNDNINCL=Benign_concentric_annular_macular_dystrophy|Cobalamin_C_disease;
+chr1	104	104	A	T	.	.	CLNDNINCL=Optic_atrophy;
+chr1	105	105	A	T	.	.	CLNDNINCL=Intellectual_disability;
+chr1	106	106	A	T	.	.	CLNDNINCL=Rh-null,_regulator_type;
+chr1	107	107	A	T	.	.	CLNDNINCL=Hemoglobin,_high_altitude_adaptation;
+chr1	108	108	A	T	.	.	CLNDNINCL=Isolated_growth_hormone_deficiency,_type_4;
+chr1	109	109	A	T	.	.	CLNDNINCL=Hyperparathyroidism_4;
+chr1	110	110	A	T	.	.	CLNDNINCL=Severe_autosomal_recessive_muscular_dystrophy_of_childhood_-_North_African_type;
+chr1	111	111	A	T	.	.	CLNDNINCL=Intellectual_disability|Seizures|Cerebellar_atrophy;
+chr1	112	112	A	T	.	.	CLNDNINCL=HEMOGLOBIN_O_(TIBESTI)|Sickle_cell-Hemoglobin_O_Arab_disease;
+chr1	113	113	A	T	.	.	CLNDNINCL=BETHLEM_MYOPATHY_1,_AUTOSOMAL_RECESSIVE;
+chr1	114	114	A	T	.	.	CLNDNINCL=Spastic_paraplegia_11,_autosomal_recessive;
+chr1	115	115	A	T	.	.	CLNDNINCL=Malignant_hyperthermia,_susceptibility_to,_1;
+chr1	116	116	A	T	.	.	CLNDNINCL=Contractures,_pterygia,_and_variable_skeletal_fusions_syndrome_1A|Spondylocarpotarsal_synostosis_syndrome;
+chr1	117	117	A	T	.	.	CLNDNINCL=Neuronal_ceroid_lipofuscinosis_8;
+chr1	118	118	A	T	.	.	CLNDNINCL=Limb-girdle_muscular_dystrophy-dystroglycanopathy,_type_C5;
+chr1	119	119	A	T	.	.	CLNDNINCL=Meier-Gorlin_syndrome_1;
+chr1	120	120	A	T	.	.	CLNDNINCL=HEMOGLOBIN_POISSY;
+chr1	121	121	A	T	.	.	CLNDNINCL=Severe_combined_immunodeficiency,_autosomal_recessive,_T_cell-negative,_B_cell-positive,_NK_cell-negative;
+chr1	122	122	A	T	.	.	CLNDNINCL=beta_Thalassemia;
+chr1	123	123	A	T	.	.	CLNDNINCL=Coenzyme_Q10_deficiency,_primary,_4;
+chr1	124	124	A	T	.	.	CLNDNINCL=Alport_syndrome_1,_X-linked_recessive;
+chr1	125	125	A	T	.	.	CLNDNINCL=Familial_hyperkalemic_periodic_paralysis;
+chr1	126	126	A	T	.	.	CLNDNINCL=Herpes_simplex_encephalitis_2;
+chr1	127	127	A	T	.	.	CLNDNINCL=Familial_mediterranean_fever,_autosomal_dominant;
+chr1	128	128	A	T	.	.	CLNDNINCL=Congenital_hypomyelinating_neuropathy_1,_autosomal_dominant;
+chr1	129	129	A	T	.	.	CLNDNINCL=Osteodysplastic_primordial_dwarfism,_type_1;
+chr1	130	130	A	T	.	.	CLNDNINCL=Bile_acid_malabsorption,_primary;
+chr1	131	131	A	T	.	.	CLNDNINCL=Premature_ovarian_failure_7|Spermatogenic_failure_8;
+chr1	132	132	A	T	.	.	CLNDNINCL=Infantile_GM1_gangliosidosis;
+chr1	133	133	A	T	.	.	CLNDNINCL=Familial_hypokalemia-hypomagnesemia;
+chr1	134	134	A	T	.	.	CLNDNINCL=HEMOGLOBIN_D_(AGRI);
+chr1	135	135	A	T	.	.	CLNDNINCL=Neurodevelopmental_disorder_with_impaired_speech_and_hyperkinetic_movements;
+chr1	136	136	A	T	.	.	CLNDNINCL=CYP2C19:_uncertain_function|Voriconazole_response|Citalopram_response|Escitalopram_response|Sertraline_response;
+chr1	137	137	A	T	.	.	CLNDNINCL=HEMOGLOBIN_CLEVELAND;
+chr1	138	138	A	T	.	.	CLNDNINCL=Usher_syndrome,_type_2A;
+chr1	139	139	A	T	.	.	CLNDNINCL=Septo-optic_dysplasia_sequence|Tubulinopathies;
+chr1	140	140	A	T	.	.	CLNDNINCL=Familial_hypertrophic_cardiomyopathy_1;
+chr1	141	141	A	T	.	.	CLNDNINCL=Mahvash_disease;
+chr1	142	142	A	T	.	.	CLNDNINCL=SPERMATOGENIC_FAILURE_39;
+chr1	143	143	A	T	.	.	CLNDNINCL=Zimmermann-Laband_syndrome_1;
+chr1	144	144	A	T	.	.	CLNDNINCL=Autosomal_recessive_nonsyndromic_deafness;
+chr1	145	145	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_1A;
+chr1	146	146	A	T	.	.	CLNDNINCL=CYP2C19:_no_function|Voriconazole_response|Citalopram_response|Escitalopram_response|Sertraline_response;
+chr1	147	147	A	T	.	.	CLNDNINCL=APOE4(-)-FREIBURG|Familial_hypercholesterolemia;
+chr1	148	148	A	T	.	.	CLNDNINCL=Nonsyndromic_hearing_loss_and_deafness;
+chr1	149	149	A	T	.	.	CLNDNINCL=Warfarin_response;
+chr1	150	150	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_9;
+chr1	151	151	A	T	.	.	CLNDNINCL=Severe_combined_immunodeficiency_due_to_ADA_deficiency;
+chr1	152	152	A	T	.	.	CLNDNINCL=Infantile-onset_ascending_hereditary_spastic_paralysis;
+chr1	153	153	A	T	.	.	CLNDNINCL=Arthrogryposis,_renal_dysfunction,_and_cholestasis_1;
+chr1	154	154	A	T	.	.	CLNDNINCL=Microcephalic_primordial_dwarfism;
+chr1	155	155	A	T	.	.	CLNDNINCL=Jeune_thoracic_dystrophy;
+chr1	156	156	A	T	.	.	CLNDNINCL=Rheumatoid_arthritis;
+chr1	157	157	A	T	.	.	CLNDNINCL=Nicolaides-Baraitser_syndrome;
+chr1	158	158	A	T	.	.	CLNDNINCL=Testosterone_17-beta-dehydrogenase_deficiency;
+chr1	159	159	A	T	.	.	CLNDNINCL=Congenital_lactase_deficiency;
+chr1	160	160	A	T	.	.	CLNDNINCL=Familial_hypercholesterolemia_1;
+chr1	161	161	A	T	.	.	CLNDNINCL=Marshall-Smith_syndrome|Marfanoid_habitus_and_intellectual_disability;
+chr1	162	162	A	T	.	.	CLNDNINCL=Systemic_lupus_erythematosus_9;
+chr1	163	163	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_4,_with_enlarged_vestibular_aqueduct;
+chr1	164	164	A	T	.	.	CLNDNINCL=Hereditary_spastic_paraplegia_7;
+chr1	165	165	A	T	.	.	CLNDNINCL=Neutropenia,_severe_congenital_1,_autosomal_dominant;
+chr1	166	166	A	T	.	.	CLNDNINCL=Finnish_congenital_nephrotic_syndrome;
+chr1	167	167	A	T	.	.	CLNDNINCL=Combined_T_and_B_cell_immunodeficiency;
+chr1	168	168	A	T	.	.	CLNDNINCL=Wilson_disease;
+chr1	169	169	A	T	.	.	CLNDNINCL=Orofaciodigital_syndrome_I;
+chr1	170	170	A	T	.	.	CLNDNINCL=Long_QT_syndrome_1;
+chr1	171	171	A	T	.	.	CLNDNINCL=Cortisone_reductase_deficiency_2;
+chr1	172	172	A	T	.	.	CLNDNINCL=Stargardt_disease;
+chr1	173	173	A	T	.	.	CLNDNINCL=not_specified;
+chr1	174	174	A	T	.	.	CLNDNINCL=Three_M_syndrome_2;
+chr1	175	175	A	T	.	.	CLNDNINCL=Achondroplasia;
+chr1	176	176	A	T	.	.	CLNDNINCL=DNA_topoisomerase_I,_camptothecin-resistant;
+chr1	177	177	A	T	.	.	CLNDNINCL=Cold-induced_sweating_syndrome_1;
+chr1	178	178	A	T	.	.	CLNDNINCL=Diamond-Blackfan_anemia_6;
+chr1	179	179	A	T	.	.	CLNDNINCL=HEMOGLOBIN_S_(TRAVIS);
+chr1	180	180	A	T	.	.	CLNDNINCL=Gaucher_disease_type_II|Gaucher_disease_type_III;
+chr1	181	181	A	T	.	.	CLNDNINCL=Abnormality_of_neuronal_migration;
+chr1	182	182	A	T	.	.	CLNDNINCL=Virus-induced_diabetes;
+chr1	183	183	A	T	.	.	CLNDNINCL=Neuronal_ceroid_lipofuscinosis_6;
+chr1	184	184	A	T	.	.	CLNDNINCL=HEMOGLOBIN_MEDICINE_LAKE;
+chr1	185	185	A	T	.	.	CLNDNINCL=Osteogenesis_imperfecta_type_I;
+chr1	186	186	A	T	.	.	CLNDNINCL=high_serum_bile_salts|normal_GGT|Hepatic_fibrosis|Cholestasis;
+chr1	187	187	A	T	.	.	CLNDNINCL=Myoclonic_Epilepsy,_Juvenile,_1;
+chr1	188	188	A	T	.	.	CLNDNINCL=Bartter_syndrome,_type_1,_antenatal;
+chr1	189	189	A	T	.	.	CLNDNINCL=HEMOGLOBIN_T_(CAMBODIA);
+chr1	190	190	A	T	.	.	CLNDNINCL=Perrault_syndrome_4;
+chr1	191	191	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_63;
+chr1	192	192	A	T	.	.	CLNDNINCL=HEMOGLOBIN_F_(CHARLOTTE);
+chr1	193	193	A	T	.	.	CLNDNINCL=HEMOGLOBIN_J_(SINGAPORE);
+chr1	194	194	A	T	.	.	CLNDNINCL=Exudative_vitreoretinopathy_4;
+chr1	195	195	A	T	.	.	CLNDNINCL=Distal_arthrogryposis_type_5D;
+chr1	196	196	A	T	.	.	CLNDNINCL=Familial_Mediterranean_fever;
+chr1	197	197	A	T	.	.	CLNDNINCL=Ehlers-Danlos_syndrome,_musculocontractural_type_1;
+chr1	198	198	A	T	.	.	CLNDNINCL=Nephronophthisis_3;
+chr1	199	199	A	T	.	.	CLNDNINCL=Tyrosinase-negative_oculocutaneous_albinism;
+chr1	200	200	A	T	.	.	CLNDNINCL=HEMOGLOBIN_O_(TIBESTI);
+chr1	201	201	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_103;
+chr1	202	202	A	T	.	.	CLNDNINCL=Cowden_syndrome_5;
+chr1	203	203	A	T	.	.	CLNDNINCL=Gaucher_disease_type_I|Gaucher_disease_type_II|Gaucher_disease_type_III|Gaucher_disease,_perinatal_lethal|Hereditary_late_onset_Parkinson_disease;
+chr1	204	204	A	T	.	.	CLNDNINCL=Minicore_myopathy_with_external_ophthalmoplegia|Central_core_myopathy;
+chr1	205	205	A	T	.	.	CLNDNINCL=HEMOGLOBIN_ARLINGTON_PARK;
+chr1	206	206	A	T	.	.	CLNDNINCL=Pulmonary_fibrosis_and/or_bone_marrow_failure,_telomere-related,_1;
+chr1	207	207	A	T	.	.	CLNDNINCL=Congenital_disorder_of_glycosylation_type_2F;
+chr1	208	208	A	T	.	.	CLNDNINCL=Alpha-1-antitrypsin_deficiency;
+chr1	209	209	A	T	.	.	CLNDNINCL=Clopidogrel_response|Voriconazole_response|Citalopram_response|Escitalopram_response|Sertraline_response;
+chr1	210	210	A	T	.	.	CLNDNINCL=Mitochondrial_DNA_depletion_syndrome_19|Mitochondrial_complex_I_deficiency;
+chr1	211	211	A	T	.	.	CLNDNINCL=Neurodevelopmental_disorder_with_brain_malformations_and_multiple_congenital_anomalies;
+chr1	212	212	A	T	.	.	CLNDNINCL=Tay-Sachs_disease,_B1_variant;
+chr1	213	213	A	T	.	.	CLNDNINCL=Statins,_attenuated_cholesterol_lowering_by;
+chr1	214	214	A	T	.	.	CLNDNINCL=Limb-girdle_muscular_dystrophy,_type_2J;
+chr1	215	215	A	T	.	.	CLNDNINCL=HEMOGLOBIN_FANNIN-LUBBOCK;
+chr1	216	216	A	T	.	.	CLNDNINCL=Chronic_granuloma_and_hemolytic_anemia;
+chr1	217	217	A	T	.	.	CLNDNINCL=Multiple_mitochondrial_dysfunctions_syndrome_3;
+chr1	218	218	A	T	.	.	CLNDNINCL=Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2B;
+chr1	219	219	A	T	.	.	CLNDNINCL=Metabolic_syndrome,_susceptibility_to;
+chr1	220	220	A	T	.	.	CLNDNINCL=Dyskeratosis_congenita,_autosomal_recessive,_5;
+chr1	221	221	A	T	.	.	CLNDNINCL=Glucose_6_phosphate_dehydrogenase_deficiency;
+chr1	222	222	A	T	.	.	CLNDNINCL=Spermatogenic_failure_12;
+chr1	223	223	A	T	.	.	CLNDNINCL=Parkinson_disease_15;
+chr1	224	224	A	T	.	.	CLNDNINCL=Charlevoix-Saguenay_spastic_ataxia;
+chr1	225	225	A	T	.	.	CLNDNINCL=Encephalopathy,_acute,_infection-induced,_4,_susceptibility_to;
+chr1	226	226	A	T	.	.	CLNDNINCL=Congenital_myopathy;
+chr1	227	227	A	T	.	.	CLNDNINCL=Mitochondrial_complex_1_deficiency,_nuclear_type_21|Mitochondrial_complex_I_deficiency;
+chr1	228	228	A	T	.	.	CLNDNINCL=Cerebrooculofacioskeletal_syndrome_1;
+chr1	229	229	A	T	.	.	CLNDNINCL=LCAT_deficiency;
+chr1	230	230	A	T	.	.	CLNDNINCL=Retinitis_pigmentosa_26;
+chr1	231	231	A	T	.	.	CLNDNINCL=Hypogonadotropic_hypogonadism_7_with_or_without_anosmia;
+chr1	232	232	A	T	.	.	CLNDNINCL=CYP2C19:_normal_function|Voriconazole_response|Citalopram_response|Escitalopram_response|Sertraline_response;
+chr1	233	233	A	T	.	.	CLNDNINCL=Amyloidogenic_transthyretin_amyloidosis;
+chr1	234	234	A	T	.	.	CLNDNINCL=Primary_hyperoxaluria,_type_II;
+chr1	235	235	A	T	.	.	CLNDNINCL=Apolipoproteinemia_E1|Familial_type_3_hyperlipoproteinemia|not_specified;
+chr1	236	236	A	T	.	.	CLNDNINCL=Multiple_acyl-CoA_dehydrogenase_deficiency;
+chr1	237	237	A	T	.	.	CLNDNINCL=Microcephaly_and_chorioretinopathy,_autosomal_recessive,_1;
+chr1	238	238	A	T	.	.	CLNDNINCL=Hypomyelinating_leukodystrophy_8,_with_or_without_oligodontia_and/or_hypogonadotropic_hypogonadism;
+chr1	239	239	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_111;
+chr1	240	240	A	T	.	.	CLNDNINCL=Acute_myeloid_leukemia|Myelodysplasia;
+chr1	241	241	A	T	.	.	CLNDNINCL=Infections,_recurrent,_with_encephalopathy,_hepatic_dysfunction,_and_cardiovascular_malformations;
+chr1	242	242	A	T	.	.	CLNDNINCL=Glycogen_storage_disease_IXb;
+chr1	243	243	A	T	.	.	CLNDNINCL=Pineal_hyperplasia_AND_diabetes_mellitus_syndrome;
+chr1	244	244	A	T	.	.	CLNDNINCL=Focal_segmental_glomerulosclerosis_4,_susceptibility_to|Hyalinosis,_Segmental_Glomerular;
+chr1	245	245	A	T	.	.	CLNDNINCL=Platelet_abnormalities_with_eosinophilia_and_immune-mediated_inflammatory_disease;
+chr1	246	246	A	T	.	.	CLNDNINCL=Nemaline_myopathy_2;
+chr1	247	247	A	T	.	.	CLNDNINCL=Combined_oxidative_phosphorylation_deficiency_11;
+chr1	248	248	A	T	.	.	CLNDNINCL=Multiple_endocrine_neoplasia,_type_2;
+chr1	249	249	A	T	.	.	CLNDNINCL=Ataxia-telangiectasia-like_disorder_1;
+chr1	250	250	A	T	.	.	CLNDNINCL=Rothmund-Thomson_syndrome_type_1;
+chr1	251	251	A	T	.	.	CLNDNINCL=Pseudo-Hurler_polydystrophy;
+chr1	252	252	A	T	.	.	CLNDNINCL=HEMOGLOBIN_MASUDA;
+chr1	253	253	A	T	.	.	CLNDNINCL=Dejerine-sottas_syndrome,_sporadic;
+chr1	254	254	A	T	.	.	CLNDNINCL=Three_M_syndrome_1;
+chr1	255	255	A	T	.	.	CLNDNINCL=HIS2*1/HIS2*2_POLYMORPHISM;
+chr1	256	256	A	T	.	.	CLNDNINCL=Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_a,_11;
+chr1	257	257	A	T	.	.	CLNDNINCL=Pulmonary_alveolar_proteinosis|Interstitial_lung_and_liver_disease;
+chr1	258	258	A	T	.	.	CLNDNINCL=Limb-girdle_muscular_dystrophy,_type_2L|Miyoshi_muscular_dystrophy_3;
+chr1	259	259	A	T	.	.	CLNDNINCL=Dehydrated_hereditary_stomatocytosis_with_or_without_pseudohyperkalemia_and/or_perinatal_edema;
+chr1	260	260	A	T	.	.	CLNDNINCL=Neurofibromatosis,_type_1;
+chr1	261	261	A	T	.	.	CLNDNINCL=Multiple_fibrofolliculomas;
+chr1	262	262	A	T	.	.	CLNDNINCL=Lethal_congenital_contracture_syndrome_7;
+chr1	263	263	A	T	.	.	CLNDNINCL=Spinocerebellar_ataxia,_autosomal_recessive,_with_axonal_neuropathy_2;
+chr1	264	264	A	T	.	.	CLNDNINCL=Myopathy,_isolated_mitochondrial,_autosomal_dominant;
+chr1	265	265	A	T	.	.	CLNDNINCL=NAT1*10_ALLELE;
+chr1	266	266	A	T	.	.	CLNDNINCL=CARASIL_syndrome;
+chr1	267	267	A	T	.	.	CLNDNINCL=Epilepsy,_childhood_absence_6;
+chr1	268	268	A	T	.	.	CLNDNINCL=Sensory_ataxic_neuropathy-dysarthria-ophthalmoparesis_syndrome;
+chr1	269	269	A	T	.	.	CLNDNINCL=Muscular_dystrophy,_limb-girdle,_type_2W;
+chr1	270	270	A	T	.	.	CLNDNINCL=Weak_RhD_expression;
+chr1	271	271	A	T	.	.	CLNDNINCL=Papillon-Lefèvre_syndrome;
+chr1	272	272	A	T	.	.	CLNDNINCL=APOE3_VARIANT;
+chr1	273	273	A	T	.	.	CLNDNINCL=3-Oxo-5_alpha-steroid_delta_4-dehydrogenase_deficiency;
+chr1	274	274	A	T	.	.	CLNDNINCL=Hydranencephaly_with_renal_aplasia-dysplasia;
+chr1	275	275	A	T	.	.	CLNDNINCL=Infantile_neuroaxonal_dystrophy;
+chr1	276	276	A	T	.	.	CLNDNINCL=HEMOGLOBIN_S_(CAMEROON);
+chr1	277	277	A	T	.	.	CLNDNINCL=Mucopolysaccharidosis,_MPS-II;
+chr1	278	278	A	T	.	.	CLNDNINCL=Stargardt_disease_1;
+chr1	279	279	A	T	.	.	CLNDNINCL=Familial_hypercholesterolemia|Familial_hypercholesterolemia_1|Homozygous_familial_hypercholesterolemia;
+chr1	280	280	A	T	.	.	CLNDNINCL=Chronic_granulomatous_disease,_autosomal_recessive_cytochrome_b-positive,_type_2;
+chr1	281	281	A	T	.	.	CLNDNINCL=alpha_Thalassemia;
+chr1	282	282	A	T	.	.	CLNDNINCL=Severe_combined_immunodeficiency,_autosomal_recessive,_T_cell-negative,_B_cell-negative,_NK_cell-positive;
+chr1	283	283	A	T	.	.	CLNDNINCL=HEMOGLOBIN_KOCHI;
+chr1	284	284	A	T	.	.	CLNDNINCL=Alstrom_syndrome;
+chr1	285	285	A	T	.	.	CLNDNINCL=SLC39A8_deficiency;
+chr1	286	286	A	T	.	.	CLNDNINCL=Burn-McKeown_syndrome;
+chr1	287	287	A	T	.	.	CLNDNINCL=Insulin-resistant_diabetes_mellitus_AND_acanthosis_nigricans;
+chr1	288	288	A	T	.	.	CLNDNINCL=Complement_factor_d_deficiency;
+chr1	289	289	A	T	.	.	CLNDNINCL=Orotic_aciduria;
+chr1	290	290	A	T	.	.	CLNDNINCL=Optic_atrophy_9;
+chr1	291	291	A	T	.	.	CLNDNINCL=Progressive_external_ophthalmoplegia_with_mitochondrial_DNA_deletions,_autosomal_recessive_1|Sensory_ataxic_neuropathy-dysarthria-ophthalmoparesis_syndrome;
+chr1	292	292	A	T	.	.	CLNDNINCL=Intellectual_disability|Seizures|Cerebellar_atrophy|Congenital_cerebellar_hypoplasia;
+chr1	293	293	A	T	.	.	CLNDNINCL=Spinal_muscular_atrophy,_distal,_autosomal_recessive,_1;
+chr1	294	294	A	T	.	.	CLNDNINCL=Retinitis_pigmentosa_39;
+chr1	295	295	A	T	.	.	CLNDNINCL=Short-rib_thoracic_dysplasia_3_with_or_without_polydactyly;
+chr1	296	296	A	T	.	.	CLNDNINCL=Combined_cellular_and_humoral_immune_defects_with_granulomas;
+chr1	297	297	A	T	.	.	CLNDNINCL=Pyruvate_carboxylase_deficiency;
+chr1	298	298	A	T	.	.	CLNDNINCL=Platelet-type_bleeding_disorder_15;
+chr1	299	299	A	T	.	.	CLNDNINCL=Dilated_cardiomyopathy_1G|Familial_hypertrophic_cardiomyopathy_9;
+chr1	300	300	A	T	.	.	CLNDNINCL=maculopathy;
+chr1	301	301	A	T	.	.	CLNDNINCL=Merosin_deficient_congenital_muscular_dystrophy;
+chr1	302	302	A	T	.	.	CLNDNINCL=Orthostatic_hypotension_1;
+chr1	303	303	A	T	.	.	CLNDNINCL=Ciliary_dyskinesia,_primary,_40;
+chr1	304	304	A	T	.	.	CLNDNINCL=Alpers_encephalopathy;
+chr1	305	305	A	T	.	.	CLNDNINCL=Creutzfeldt-Jakob_Disease,_Familial|Fatal_familial_insomnia;
+chr1	306	306	A	T	.	.	CLNDNINCL=Cystic_fibrosis;
+chr1	307	307	A	T	.	.	CLNDNINCL=Charcot-Marie-Tooth_disease_type_2I;
+chr1	308	308	A	T	.	.	CLNDNINCL=Obesity;
+chr1	309	309	A	T	.	.	CLNDNINCL=Coenzyme_Q10_deficiency,_primary,_7;
+chr1	310	310	A	T	.	.	CLNDNINCL=Hypomyelinating_leukodystrophy_7;
+chr1	311	311	A	T	.	.	CLNDNINCL=Ehlers-Danlos_syndrome,_type_4;
+chr1	312	312	A	T	.	.	CLNDNINCL=Retinitis_pigmentosa_25;
+chr1	313	313	A	T	.	.	CLNDNINCL=Glycogen_storage_disease_type_III;
+chr1	314	314	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_7;
+chr1	315	315	A	T	.	.	CLNDNINCL=Nephrotic_syndrome,_type_5,_with_or_without_ocular_abnormalities;
+chr1	316	316	A	T	.	.	CLNDNINCL=Combined_oxidative_phosphorylation_deficiency_3;
+chr1	317	317	A	T	.	.	CLNDNINCL=HEMOGLOBIN_S_(ANTILLES);
+chr1	318	318	A	T	.	.	CLNDNINCL=Leukoencephalopathy|Deafness;
+chr1	319	319	A	T	.	.	CLNDNINCL=G6PD_SANTAMARIA;
+chr1	320	320	A	T	.	.	CLNDNINCL=Perrault_syndrome;
+chr1	321	321	A	T	.	.	CLNDNINCL=Mucopolysaccharidosis,_MPS-IV-A;
+chr1	322	322	A	T	.	.	CLNDNINCL=Congenital_disorder_of_glycosylation_type_2B;
+chr1	323	323	A	T	.	.	CLNDNINCL=Somatotroph_adenoma;
+chr1	324	324	A	T	.	.	CLNDNINCL=Congenital_diaphragmatic_hernia;
+chr1	325	325	A	T	.	.	CLNDNINCL=HEMOGLOBIN_FANNIN-LUBBOCK|HEMOGLOBIN_MASUDA;
+chr1	326	326	A	T	.	.	CLNDNINCL=APOE4(-)-FREIBURG|Familial_hypercholesterolemia|Familial_type_3_hyperlipoproteinemia|APOE5_VARIANT|not_specified;
+chr1	327	327	A	T	.	.	CLNDNINCL=Cholestanol_storage_disease;
+chr1	328	328	A	T	.	.	CLNDNINCL=Diamond-Blackfan_anemia_1;
+chr1	329	329	A	T	.	.	CLNDNINCL=Acyl-CoA_dehydrogenase_family,_member_9,_deficiency_of;
+chr1	330	330	A	T	.	.	CLNDNINCL=Lynch_syndrome_I;
+chr1	331	331	A	T	.	.	CLNDNINCL=Primary_hyperoxaluria,_type_I;
+chr1	332	332	A	T	.	.	CLNDNINCL=Microcephaly,_short_stature,_and_limb_abnormalities;
+chr1	333	333	A	T	.	.	CLNDNINCL=Stargardt_disease_1|Stargardt_disease;
+chr1	334	334	A	T	.	.	CLNDNINCL=Cone-rod_dystrophy;
+chr1	335	335	A	T	.	.	CLNDNINCL=You-Hoover-Fong_syndrome;
+chr1	336	336	A	T	.	.	CLNDNINCL=Creatine_transporter_deficiency;
+chr1	337	337	A	T	.	.	CLNDNINCL=Combined_cellular_and_humoral_immune_defects_with_granulomas|Alpha/beta_T-cell_lymphopenia_with_gamma/delta_T-cell_expansion,_severe_cytomegalovirus_infection,_and_autoimmunity;
+chr1	338	338	A	T	.	.	CLNDNINCL=Severe_combined_immunodeficiency,_autosomal_recessive,_T_cell-negative,_B_cell-positive,_NK_cell-positive;
+chr1	339	339	A	T	.	.	CLNDNINCL=Spondylocostal_dysostosis_5;
+chr1	340	340	A	T	.	.	CLNDNINCL=Optic_atrophy|Abnormality_of_the_cerebellum|Dystonia;
+chr1	341	341	A	T	.	.	CLNDNINCL=Age-related_macular_degeneration_12|Coronary_artery_disease,_resistance_to|Human_immunodeficiency_virus_type_1,_rapid_progression_to_AIDS;
+chr1	342	342	A	T	.	.	CLNDNINCL=Macrocephalus|Autism_spectrum_disorder;
+chr1	343	343	A	T	.	.	CLNDNINCL=Epilepsy,_progressive_myoclonic_6;
+chr1	344	344	A	T	.	.	CLNDNINCL=Familial_type_3_hyperlipoproteinemia;
+chr1	345	345	A	T	.	.	CLNDNINCL=Cohen_syndrome;
+chr1	346	346	A	T	.	.	CLNDNINCL=Alzheimer_disease_3,_protection_against,_due_to_APOE3-Christchurch;
+chr1	347	347	A	T	.	.	CLNDNINCL=Familial_X-linked_hypophosphatemic_vitamin_D_refractory_rickets;
+chr1	348	348	A	T	.	.	CLNDNINCL=Short-rib_thoracic_dysplasia_3_with_or_without_polydactyly|Jeune_thoracic_dystrophy;
+chr1	349	349	A	T	.	.	CLNDNINCL=3_beta-Hydroxysteroid_dehydrogenase_deficiency;
+chr1	350	350	A	T	.	.	CLNDNINCL=Citrullinemia_type_I;
+chr1	351	351	A	T	.	.	CLNDNINCL=Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2B|Myopathy,_distal,_with_anterior_tibial_onset|Miyoshi_muscular_dystrophy_1;
+chr1	352	352	A	T	.	.	CLNDNINCL=Autistic_behavior|Mental_retardation,_autosomal_recessive_13;
+chr1	353	353	A	T	.	.	CLNDNINCL=Stuttering,_familial_persistent_1;
+chr1	354	354	A	T	.	.	CLNDNINCL=INTER-ALPHA-TRYPSIN_INHIBITOR,_HEAVY_CHAIN_1_POLYMORPHISM;
+chr1	355	355	A	T	.	.	CLNDNINCL=Nephrotic_syndrome,_type_3;
+chr1	356	356	A	T	.	.	CLNDNINCL=Classic_congenital_adrenal_hyperplasia_due_to_21-hydroxylase_deficiency;
+chr1	357	357	A	T	.	.	CLNDNINCL=Pulmonary_alveolar_proteinosis;
+chr1	358	358	A	T	.	.	CLNDNINCL=Primary_autosomal_recessive_microcephaly_5;
+chr1	359	359	A	T	.	.	CLNDNINCL=Opsismodysplasia;
+chr1	360	360	A	T	.	.	CLNDNINCL=Primary_dilated_cardiomyopathy;
+chr1	361	361	A	T	.	.	CLNDNINCL=APOE5_VARIANT;
+chr1	362	362	A	T	.	.	CLNDNINCL=Mental_retardation,_autosomal_recessive_27;
+chr1	363	363	A	T	.	.	CLNDNINCL=Ataxia-telangiectasia_syndrome;
+chr1	364	364	A	T	.	.	CLNDNINCL=Parkinson_disease_7;
+chr1	365	365	A	T	.	.	CLNDNINCL=Prune_belly_syndrome;
+chr1	366	366	A	T	.	.	CLNDNINCL=Biotinidase_deficiency;
+chr1	367	367	A	T	.	.	CLNDNINCL=Leukocyte_adhesion_deficiency_1;
+chr1	368	368	A	T	.	.	CLNDNINCL=Weill-Marchesani_syndrome_1;
+chr1	369	369	A	T	.	.	CLNDNINCL=CYP2C8_HAPLOTYPE_POLYMORPHISM;
+chr1	370	370	A	T	.	.	CLNDNINCL=Mucopolysaccharidosis,_MPS-IV-B;
+chr1	371	371	A	T	.	.	CLNDNINCL=Carnitine_palmitoyltransferase_II_deficiency,_myopathic,_stress-induced|Carnitine_palmitoyltransferase_II_deficiency;
+chr1	372	372	A	T	.	.	CLNDNINCL=Combined_oxidative_phosphorylation_deficiency_17;
+chr1	373	373	A	T	.	.	CLNDNINCL=Severe_combined_immunodeficiency,_autosomal_recessive,_T_cell-negative,_B_cell-negative,_NK_cell-negative,_due_to_adenosine_deaminase_deficiency;
+chr1	374	374	A	T	.	.	CLNDNINCL=Corticosterone_methyloxidase_type_2_deficiency;
+chr1	375	375	A	T	.	.	CLNDNINCL=Mitochondrial_complex_III_deficiency,_nuclear_type_7;
+chr1	376	376	A	T	.	.	CLNDNINCL=Very_long_chain_acyl-CoA_dehydrogenase_deficiency;
+chr1	377	377	A	T	.	.	CLNDNINCL=Mitochondrial_complex_II_deficiency,_nuclear_type_1;
+chr1	378	378	A	T	.	.	CLNDNINCL=HYPERLIPOPROTEINEMIA,_TYPE_III,_AND_ATHEROSCLEROSIS_ASSOCIATED_WITH_APOE7;
+chr1	379	379	A	T	.	.	CLNDNINCL=LUTEINIZING_HORMONE_POLYMORPHISM;
+chr1	380	380	A	T	.	.	CLNDNINCL=Pendred_syndrome;
+chr1	381	381	A	T	.	.	CLNDNINCL=ABO_blood_group_system;
+chr1	382	382	A	T	.	.	CLNDNINCL=Non-obstructive_azoospermia;
+chr1	383	383	A	T	.	.	CLNDNINCL=Leber_congenital_amaurosis;
+chr1	384	384	A	T	.	.	CLNDNINCL=Alexander_Disease;
+chr1	385	385	A	T	.	.	CLNDNINCL=Joubert_syndrome_9;
+chr1	386	386	A	T	.	.	CLNDNINCL=Congenital_myasthenic_syndrome_1B,_fast-channel;
+chr1	387	387	A	T	.	.	CLNDNINCL=Severe_congenital_neutropenia;
+chr1	388	388	A	T	.	.	CLNDNINCL=Multiple_endocrine_neoplasia,_type_2a|not_specified;
+chr1	389	389	A	T	.	.	CLNDNINCL=Lysinuric_protein_intolerance;
+chr1	390	390	A	T	.	.	CLNDNINCL=Tamoxifen_response|Deutetrabenazine_response;
+chr1	391	391	A	T	.	.	CLNDNINCL=Alport_syndrome,_autosomal_recessive;
+chr1	392	392	A	T	.	.	CLNDNINCL=Anemia,_nonspherocytic_hemolytic,_due_to_G6PD_deficiency;
+chr1	393	393	A	T	.	.	CLNDNINCL=Progressive_familial_intrahepatic_cholestasis_3;
+chr1	394	394	A	T	.	.	CLNDNINCL=HEMOGLOBIN_ZIGUINCHOR;
+chr1	395	395	A	T	.	.	CLNDNINCL=Partial_RhD|Weak_RhD_expression;
+chr1	396	396	A	T	.	.	CLNDNINCL=Spastic_paraplegia_35;
+chr1	397	397	A	T	.	.	CLNDNINCL=Infantile_encephalopathy;
+chr1	398	398	A	T	.	.	CLNDNINCL=None;
+chr1	399	399	A	T	.	.	CLNDNINCL=Lynch_syndrome;
+chr1	400	400	A	T	.	.	CLNDNINCL=Myasthenia,_limb-girdle,_familial;
+chr1	401	401	A	T	.	.	CLNDNINCL=Central_core_myopathy;
+chr1	402	402	A	T	.	.	CLNDNINCL=Desmosterolosis;
+chr1	403	403	A	T	.	.	CLNDNINCL=Hyper-IgM_syndrome_type_1;
+chr1	404	404	A	T	.	.	CLNDNINCL=Hyperphenylalaninemia,_BH4-deficient,_D;
+chr1	405	405	A	T	.	.	CLNDNINCL=Pontocerebellar_hypoplasia_type_4|Pontocerebellar_hypoplasia_type_2A;
+chr1	406	406	A	T	.	.	CLNDNINCL=Thanatophoric_dysplasia_type_1;
+chr1	407	407	A	T	.	.	CLNDNINCL=HEMOGLOBIN_CASABLANCA;
+chr1	408	408	A	T	.	.	CLNDNINCL=Nephropathy_with_pretibial_epidermolysis_bullosa_and_deafness;
+chr1	409	409	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_2;
+chr1	410	410	A	T	.	.	CLNDNINCL=Pituitary_dependent_hypercortisolism;
+chr1	411	411	A	T	.	.	CLNDNINCL=Sebaceous_tumors,_somatic;
+chr1	412	412	A	T	.	.	CLNDNINCL=Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_a,_13;
+chr1	413	413	A	T	.	.	CLNDNINCL=Spinocerebellar_ataxia,_autosomal_recessive_8;
+chr1	414	414	A	T	.	.	CLNDNINCL=Glycogen_storage_disease,_type_VI;
+chr1	415	415	A	T	.	.	CLNDNINCL=Niemann-Pick_disease_type_C1;
+chr1	416	416	A	T	.	.	CLNDNINCL=Steel_syndrome;
+chr1	417	417	A	T	.	.	CLNDNINCL=Debrisoquine,_ultrarapid_metabolism_of|Tamoxifen_response|Deutetrabenazine_response;
+chr1	418	418	A	T	.	.	CLNDNINCL=Immunodeficiency_8;
+chr1	419	419	A	T	.	.	CLNDNINCL=Succinyl-CoA_acetoacetate_transferase_deficiency;
+chr1	420	420	A	T	.	.	CLNDNINCL=Bethlem_myopathy_1;
+chr1	421	421	A	T	.	.	CLNDNINCL=PI_M(NICHINAN);
+chr1	422	422	A	T	.	.	CLNDNINCL=Werner_syndrome;
+chr1	423	423	A	T	.	.	CLNDNINCL=Partial_RhD;
+chr1	424	424	A	T	.	.	CLNDNINCL=Bloom_syndrome;
+chr1	425	425	A	T	.	.	CLNDNINCL=Neurofibromatosis,_type_2;
+chr1	426	426	A	T	.	.	CLNDNINCL=GALT_POLYMORPHISM_(LOS_ANGELES,_D1)|Deficiency_of_UDPglucose-hexose-1-phosphate_uridylyltransferase;
+chr1	427	427	A	T	.	.	CLNDNINCL=Intellectual_disability|Intellectual_disability-cataracts-calcified_pinnae-myopathy_syndrome;
+chr1	428	428	A	T	.	.	CLNDNINCL=Methylmalonic_aciduria_due_to_methylmalonyl-CoA_mutase_deficiency;
+chr1	429	429	A	T	.	.	CLNDNINCL=Deafness,_autosomal_dominant_12;
+chr1	430	430	A	T	.	.	CLNDNINCL=Glycogen_storage_disease,_type_II;
+chr1	431	431	A	T	.	.	CLNDNINCL=Molybdenum_cofactor_deficiency,_complementation_group_A;
+chr1	432	432	A	T	.	.	CLNDNINCL=HEMOGLOBIN_F_(PORTO_TORRES);
+chr1	433	433	A	T	.	.	CLNDNINCL=Hereditary_insensitivity_to_pain_with_anhidrosis;
+chr1	434	434	A	T	.	.	CLNDNINCL=Thiopurine_methyltransferase_deficiency;
+chr1	435	435	A	T	.	.	CLNDNINCL=HEMOGLOBIN_CLEVELAND|HEMOGLOBIN_D_(AGRI)|HEMOGLOBIN_T_(CAMBODIA);
+chr1	436	436	A	T	.	.	CLNDNINCL=Dyskeratosis_congenita;
+chr1	437	437	A	T	.	.	CLNDNINCL=Limb-girdle_muscular_dystrophy,_type_2J|Myopathy,_early-onset,_with_fatal_cardiomyopathy;
+chr1	438	438	A	T	.	.	CLNDNINCL=Congenital_muscular_dystrophy;
+chr1	439	439	A	T	.	.	CLNDNINCL=HEMOGLOBIN_GRENOBLE;
+chr1	440	440	A	T	.	.	CLNDNINCL=Seizures,_scoliosis,_and_macrocephaly_syndrome;
+chr1	441	441	A	T	.	.	CLNDNINCL=Gaucher_disease_type_I;
+chr1	442	442	A	T	.	.	CLNDNINCL=Niemann-Pick_disease,_type_B;
+chr1	443	443	A	T	.	.	CLNDNINCL=Nevus_comedonicus;
+chr1	444	444	A	T	.	.	CLNDNINCL=Mitochondrial_DNA_depletion_syndrome_9_(encephalomyopathic_with_methylmalonic_aciduria);
+chr1	445	445	A	T	.	.	CLNDNINCL=Leigh_syndrome;
+chr1	446	446	A	T	.	.	CLNDNINCL=Congenital_disorders_of_glycosylation_type_II;
+chr1	447	447	A	T	.	.	CLNDNINCL=Alpha/beta_T-cell_lymphopenia_with_gamma/delta_T-cell_expansion,_severe_cytomegalovirus_infection,_and_autoimmunity;
+chr1	448	448	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_3;
+chr1	449	449	A	T	.	.	CLNDNINCL=HEMOGLOBIN_JAMAICA_PLAIN;
+chr1	450	450	A	T	.	.	CLNDNINCL=Small_fiber_neuropathy;
+chr1	451	451	A	T	.	.	CLNDNINCL=Neuromuscular_disease;
+chr1	452	452	A	T	.	.	CLNDNINCL=Autosomal_recessive_congenital_ichthyosis_5;
+chr1	453	453	A	T	.	.	CLNDNINCL=Limb-girdle_muscular_dystrophy,_type_2A;
+chr1	454	454	A	T	.	.	CLNDNINCL=Hereditary_hyperferritinemia_with_congenital_cataracts;
+chr1	455	455	A	T	.	.	CLNDNINCL=Intestinal_pseudo-obstruction;
+chr1	456	456	A	T	.	.	CLNDNINCL=Multiple_gastrointestinal_atresias;
+chr1	457	457	A	T	.	.	CLNDNINCL=Advanced_sleep_phase_syndrome,_familial,_3;
+chr1	458	458	A	T	.	.	CLNDNINCL=Medullary_thyroid_carcinoma;
+chr1	459	459	A	T	.	.	CLNDNINCL=Hereditary_spastic_paraplegia;
+chr1	460	460	A	T	.	.	CLNDNINCL=Epilepsy,_progressive_myoclonic_5;
+chr1	461	461	A	T	.	.	CLNDNINCL=Deafness,_autosomal_recessive_77;
+chr1	462	462	A	T	.	.	CLNDNINCL=Netherton_syndrome|not_provided;

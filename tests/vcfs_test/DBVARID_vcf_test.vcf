@@ -1,0 +1,209 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=2021-06-09
+##source=ClinVar
+##reference=GRCh38
+##ID=<Description="ClinVar Variation ID">
+##INFO=<ID=AF_ESP,Number=1,Type=Float,Description="allele frequencies from GO-ESP">
+##INFO=<ID=AF_EXAC,Number=1,Type=Float,Description="allele frequencies from ExAC">
+##INFO=<ID=AF_TGP,Number=1,Type=Float,Description="allele frequencies from TGP">
+##INFO=<ID=ALLELEID,Number=1,Type=Integer,Description="the ClinVar Allele ID">
+##INFO=<ID=CLNDN,Number=.,Type=String,Description="ClinVar's preferred disease name for the concept specified by disease identifiers in CLNDISDB">
+##INFO=<ID=CLNDNINCL,Number=.,Type=String,Description="For included Variant : ClinVar's preferred disease name for the concept specified by disease identifiers in CLNDISDB">
+##INFO=<ID=CLNDISDB,Number=.,Type=String,Description="Tag-value pairs of disease database name and identifier, e.g. OMIM:NNNNNN">
+##INFO=<ID=CLNDISDBINCL,Number=.,Type=String,Description="For included Variant: Tag-value pairs of disease database name and identifier, e.g. OMIM:NNNNNN">
+##INFO=<ID=CLNHGVS,Number=.,Type=String,Description="Top-level (primary assembly, alt, or patch) HGVS expression.">
+##INFO=<ID=CLNREVSTAT,Number=.,Type=String,Description="ClinVar review status for the Variation ID">
+##INFO=<ID=CLNSIG,Number=.,Type=String,Description="Clinical significance for this single variant">
+##INFO=<ID=CLNSIGCONF,Number=.,Type=String,Description="Conflicting clinical significance for this single variant">
+##INFO=<ID=CLNSIGINCL,Number=.,Type=String,Description="Clinical significance for a haplotype or genotype that includes this variant. Reported as pairs of VariationID:clinical significance.">
+##INFO=<ID=CLNVC,Number=1,Type=String,Description="Variant type">
+##INFO=<ID=CLNVCSO,Number=1,Type=String,Description="Sequence Ontology id for variant type">
+##INFO=<ID=CLNVI,Number=.,Type=String,Description="the variant's clinical sources reported as tag-value pairs of database and variant identifier">
+##INFO=<ID=DBVARID,Number=.,Type=String,Description="nsv accessions from dbVar for the variant">
+##INFO=<ID=GENEINFO,Number=1,Type=String,Description="Gene(s) for the variant reported as gene symbol:gene id. The gene symbol and id are delimited by a colon (:) and each pair is delimited by a vertical bar (|)">
+##INFO=<ID=MC,Number=.,Type=String,Description="comma separated list of molecular consequence in the form of Sequence Ontology ID|molecular_consequence">
+##INFO=<ID=ORIGIN,Number=.,Type=String,Description="Allele origin. One or more of the following values may be added: 0 - unknown; 1 - germline; 2 - somatic; 4 - inherited; 8 - paternal; 16 - maternal; 32 - de-novo; 64 - biparental; 128 - uniparental; 256 - not-tested; 512 - tested-inconclusive; 1073741824 - other">
+##INFO=<ID=RS,Number=.,Type=String,Description="dbSNP ID (i.e. rs number)">
+##INFO=<ID=SSR,Number=1,Type=Integer,Description="Variant Suspect Reason Codes. One or more of the following values may be added: 0 - unspecified, 1 - Paralog, 2 - byEST, 4 - oldAlign, 8 - Para_EST, 16 - 1kg_failed, 1024 - other">
+##contig=<ID=1>
+##contig=<ID=2>
+##contig=<ID=3>
+##contig=<ID=4>
+##contig=<ID=5>
+##contig=<ID=6>
+##contig=<ID=7>
+##contig=<ID=8>
+##contig=<ID=9>
+##contig=<ID=10>
+##contig=<ID=11>
+##contig=<ID=12>
+##contig=<ID=13>
+##contig=<ID=14>
+##contig=<ID=15>
+##contig=<ID=16>
+##contig=<ID=17>
+##contig=<ID=18>
+##contig=<ID=19>
+##contig=<ID=20>
+##contig=<ID=21>
+##contig=<ID=22>
+##contig=<ID=X>
+##contig=<ID=Y>
+##contig=<ID=MT>
+##contig=<ID=NW_009646201.1>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	1	1	A	T	.	.	DBVARID=nsv1067912;
+chr1	2	2	A	T	.	.	DBVARID=nsv1067877;
+chr1	3	3	A	T	.	.	DBVARID=nsv1197433;
+chr1	4	4	A	T	.	.	DBVARID=nsv1197452;
+chr1	5	5	A	T	.	.	DBVARID=nsv1197432;
+chr1	6	6	A	T	.	.	DBVARID=nsv1197478;
+chr1	7	7	A	T	.	.	DBVARID=nsv1067883;
+chr1	8	8	A	T	.	.	DBVARID=nsv1197409;
+chr1	9	9	A	T	.	.	DBVARID=nsv1197405;
+chr1	10	10	A	T	.	.	DBVARID=nsv1197473;
+chr1	11	11	A	T	.	.	DBVARID=nsv1197395;
+chr1	12	12	A	T	.	.	DBVARID=nsv1197453;
+chr1	13	13	A	T	.	.	DBVARID=nsv1067847;
+chr1	14	14	A	T	.	.	DBVARID=nsv1067922;
+chr1	15	15	A	T	.	.	DBVARID=nsv1197393;
+chr1	16	16	A	T	.	.	DBVARID=nsv1067910;
+chr1	17	17	A	T	.	.	DBVARID=nsv1197424;
+chr1	18	18	A	T	.	.	DBVARID=nsv1197400;
+chr1	19	19	A	T	.	.	DBVARID=nsv1067839;
+chr1	20	20	A	T	.	.	DBVARID=nsv1067919;
+chr1	21	21	A	T	.	.	DBVARID=nsv1197403;
+chr1	22	22	A	T	.	.	DBVARID=nsv1197539;
+chr1	23	23	A	T	.	.	DBVARID=nsv1067880;
+chr1	24	24	A	T	.	.	DBVARID=nsv1067911;
+chr1	25	25	A	T	.	.	DBVARID=nsv1197461;
+chr1	26	26	A	T	.	.	DBVARID=nsv1197547;
+chr1	27	27	A	T	.	.	DBVARID=nsv1197391;
+chr1	28	28	A	T	.	.	DBVARID=nsv1197538;
+chr1	29	29	A	T	.	.	DBVARID=nsv1197388;
+chr1	30	30	A	T	.	.	DBVARID=nsv1197392;
+chr1	31	31	A	T	.	.	DBVARID=nsv1197545;
+chr1	32	32	A	T	.	.	DBVARID=nsv1067865;
+chr1	33	33	A	T	.	.	DBVARID=nsv1197449;
+chr1	34	34	A	T	.	.	DBVARID=nsv1197419;
+chr1	35	35	A	T	.	.	DBVARID=nsv1197589;
+chr1	36	36	A	T	.	.	DBVARID=nsv1197537;
+chr1	37	37	A	T	.	.	DBVARID=nsv1197394;
+chr1	38	38	A	T	.	.	DBVARID=nsv1067915;
+chr1	39	39	A	T	.	.	DBVARID=nsv1197421;
+chr1	40	40	A	T	.	.	DBVARID=nsv1067893;
+chr1	41	41	A	T	.	.	DBVARID=nsv1197415;
+chr1	42	42	A	T	.	.	DBVARID=nsv1197506;
+chr1	43	43	A	T	.	.	DBVARID=nsv1197467;
+chr1	44	44	A	T	.	.	DBVARID=nsv1197386;
+chr1	45	45	A	T	.	.	DBVARID=nsv1067848;
+chr1	46	46	A	T	.	.	DBVARID=nsv1197410;
+chr1	47	47	A	T	.	.	DBVARID=nsv1197470;
+chr1	48	48	A	T	.	.	DBVARID=nsv1197430;
+chr1	49	49	A	T	.	.	DBVARID=nsv1197417;
+chr1	50	50	A	T	.	.	DBVARID=nsv1067903;
+chr1	51	51	A	T	.	.	DBVARID=nsv1067918;
+chr1	52	52	A	T	.	.	DBVARID=nsv1197566;
+chr1	53	53	A	T	.	.	DBVARID=nsv1197479;
+chr1	54	54	A	T	.	.	DBVARID=nsv1067881;
+chr1	55	55	A	T	.	.	DBVARID=nsv1197443;
+chr1	56	56	A	T	.	.	DBVARID=nsv1067876;
+chr1	57	57	A	T	.	.	DBVARID=nsv1197466;
+chr1	58	58	A	T	.	.	DBVARID=nsv1067920;
+chr1	59	59	A	T	.	.	DBVARID=nsv1197476;
+chr1	60	60	A	T	.	.	DBVARID=nsv1067852;
+chr1	61	61	A	T	.	.	DBVARID=nsv1067905;
+chr1	62	62	A	T	.	.	DBVARID=nsv1197401;
+chr1	63	63	A	T	.	.	DBVARID=nsv1197507;
+chr1	64	64	A	T	.	.	DBVARID=None;
+chr1	65	65	A	T	.	.	DBVARID=nsv1067884;
+chr1	66	66	A	T	.	.	DBVARID=nsv1067836;
+chr1	67	67	A	T	.	.	DBVARID=nsv1067843;
+chr1	68	68	A	T	.	.	DBVARID=nsv1067868;
+chr1	69	69	A	T	.	.	DBVARID=nsv1067855;
+chr1	70	70	A	T	.	.	DBVARID=nsv1067895;
+chr1	71	71	A	T	.	.	DBVARID=nsv1197425;
+chr1	72	72	A	T	.	.	DBVARID=nsv1067897;
+chr1	73	73	A	T	.	.	DBVARID=nsv1067874;
+chr1	74	74	A	T	.	.	DBVARID=nsv1197464;
+chr1	75	75	A	T	.	.	DBVARID=nsv1067841;
+chr1	76	76	A	T	.	.	DBVARID=nsv1067850;
+chr1	77	77	A	T	.	.	DBVARID=nsv1197418;
+chr1	78	78	A	T	.	.	DBVARID=nsv1197399;
+chr1	79	79	A	T	.	.	DBVARID=nsv1067886;
+chr1	80	80	A	T	.	.	DBVARID=nsv1067856;
+chr1	81	81	A	T	.	.	DBVARID=nsv1067872;
+chr1	82	82	A	T	.	.	DBVARID=nsv1067901;
+chr1	83	83	A	T	.	.	DBVARID=nsv1197457;
+chr1	84	84	A	T	.	.	DBVARID=nsv513781;
+chr1	85	85	A	T	.	.	DBVARID=nsv1197465;
+chr1	86	86	A	T	.	.	DBVARID=nsv1197398;
+chr1	87	87	A	T	.	.	DBVARID=nsv1197436;
+chr1	88	88	A	T	.	.	DBVARID=nsv1197590;
+chr1	89	89	A	T	.	.	DBVARID=nsv1197438;
+chr1	90	90	A	T	.	.	DBVARID=nsv1067832;
+chr1	91	91	A	T	.	.	DBVARID=nsv1197563;
+chr1	92	92	A	T	.	.	DBVARID=nsv1067892;
+chr1	93	93	A	T	.	.	DBVARID=nsv1197471;
+chr1	94	94	A	T	.	.	DBVARID=nsv1067854;
+chr1	95	95	A	T	.	.	DBVARID=nsv1197390;
+chr1	96	96	A	T	.	.	DBVARID=nsv1067845;
+chr1	97	97	A	T	.	.	DBVARID=nsv1067849;
+chr1	98	98	A	T	.	.	DBVARID=nsv1067900;
+chr1	99	99	A	T	.	.	DBVARID=nsv1067863;
+chr1	100	100	A	T	.	.	DBVARID=nsv1197385;
+chr1	101	101	A	T	.	.	DBVARID=nsv1197594;
+chr1	102	102	A	T	.	.	DBVARID=nsv1197422;
+chr1	103	103	A	T	.	.	DBVARID=nsv1197406;
+chr1	104	104	A	T	.	.	DBVARID=nsv1067894;
+chr1	105	105	A	T	.	.	DBVARID=nsv1067879;
+chr1	106	106	A	T	.	.	DBVARID=nsv1197585;
+chr1	107	107	A	T	.	.	DBVARID=nsv1197458;
+chr1	108	108	A	T	.	.	DBVARID=nsv513779;
+chr1	109	109	A	T	.	.	DBVARID=nsv1067870;
+chr1	110	110	A	T	.	.	DBVARID=nsv1067859;
+chr1	111	111	A	T	.	.	DBVARID=nsv1067869;
+chr1	112	112	A	T	.	.	DBVARID=nsv1197397;
+chr1	113	113	A	T	.	.	DBVARID=nsv930454;
+chr1	114	114	A	T	.	.	DBVARID=nsv1067834;
+chr1	115	115	A	T	.	.	DBVARID=nsv1067916;
+chr1	116	116	A	T	.	.	DBVARID=nsv1067887;
+chr1	117	117	A	T	.	.	DBVARID=nsv1197423;
+chr1	118	118	A	T	.	.	DBVARID=nsv1197396;
+chr1	119	119	A	T	.	.	DBVARID=nsv1067837;
+chr1	120	120	A	T	.	.	DBVARID=nsv1197469;
+chr1	121	121	A	T	.	.	DBVARID=nsv1067923;
+chr1	122	122	A	T	.	.	DBVARID=nsv1067833;
+chr1	123	123	A	T	.	.	DBVARID=nsv1067907;
+chr1	124	124	A	T	.	.	DBVARID=nsv1197474;
+chr1	125	125	A	T	.	.	DBVARID=nsv1197414;
+chr1	126	126	A	T	.	.	DBVARID=nsv1067851;
+chr1	127	127	A	T	.	.	DBVARID=nsv1197408;
+chr1	128	128	A	T	.	.	DBVARID=nsv1197411;
+chr1	129	129	A	T	.	.	DBVARID=nsv1197427;
+chr1	130	130	A	T	.	.	DBVARID=nsv1197434;
+chr1	131	131	A	T	.	.	DBVARID=nsv1197407;
+chr1	132	132	A	T	.	.	DBVARID=nsv1197550;
+chr1	133	133	A	T	.	.	DBVARID=nsv1197468;
+chr1	134	134	A	T	.	.	DBVARID=nsv1067875;
+chr1	135	135	A	T	.	.	DBVARID=nsv1197404;
+chr1	136	136	A	T	.	.	DBVARID=nsv1067857;
+chr1	137	137	A	T	.	.	DBVARID=nsv1197416;
+chr1	138	138	A	T	.	.	DBVARID=nsv1067878;
+chr1	139	139	A	T	.	.	DBVARID=nsv1197431;
+chr1	140	140	A	T	.	.	DBVARID=nsv1067921;
+chr1	141	141	A	T	.	.	DBVARID=nsv1197426;
+chr1	142	142	A	T	.	.	DBVARID=nsv1197505;
+chr1	143	143	A	T	.	.	DBVARID=nsv1197460;
+chr1	144	144	A	T	.	.	DBVARID=nsv1197565;
+chr1	145	145	A	T	.	.	DBVARID=nsv1197402;
+chr1	146	146	A	T	.	.	DBVARID=nsv1067867;
+chr1	147	147	A	T	.	.	DBVARID=nsv1197451;
+chr1	148	148	A	T	.	.	DBVARID=nsv1197475;
+chr1	149	149	A	T	.	.	DBVARID=nsv1197389;
+chr1	150	150	A	T	.	.	DBVARID=nsv1067904;
+chr1	151	151	A	T	.	.	DBVARID=nsv1197413;
+chr1	152	152	A	T	.	.	DBVARID=nsv1197420;
+chr1	153	153	A	T	.	.	DBVARID=nsv1067842;
+chr1	154	154	A	T	.	.	DBVARID=nsv1067924;
